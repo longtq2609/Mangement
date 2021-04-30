@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_thongKe">
+
+    <fragment
+        android:id="@+id/nav_thongKe"
+        android:name="com.example.quanlycanhan.ui.thongke.ThongKeFragment"
+        android:label="@string/menu_thongKe"
+        tools:layout="@layout/fragment_thong_ke" />
+
+    <fragment
+        android:id="@+id/nav_thu"
+        android:name="com.example.quanlycanhan.ui.thu.ThuFragment"
+        android:label="@string/menu_thu"
+        tools:layout="@layout/fragment_thu" />
+
+    <fragment
+        android:id="@+id/nav_chi"
+        android:name="com.example.quanlycanhan.ui.chi.ChiFragment"
+        android:label="@string/menu_chi"
+        tools:layout="@layout/fragment_chi" />
+    <fragment
+        android:id="@+id/nav_gioiThieu"
+        android:name="com.example.quanlycanhan.ui.GioiThieuFragment"
+        android:label="@string/menu_gioiThieu"
+        tools:layout="@layout/fragment_gioi_thieu" />
+    <fragment
+        android:id="@+id/nav_thoat"
+        android:name="com.example.quanlycanhan.ui.ThoatFragment"
+        android:label="Thoát"
+        tools:layout="@layout/fragment_thoat" />
+</navigation>

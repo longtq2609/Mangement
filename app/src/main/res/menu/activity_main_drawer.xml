@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_thu"
+            android:icon="@drawable/thu"
+            android:title="@string/menu_thu" />
+        <item
+            android:id="@+id/nav_chi"
+            android:icon="@drawable/chi"
+            android:title="@string/menu_chi" />
+        <item
+            android:id="@+id/nav_thongKe"
+            android:icon="@drawable/thongke"
+            android:title="@string/menu_thongKe" />
+    </group>
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_gioiThieu"
+                android:icon="@drawable/gioithieu"
+                android:title="@string/menu_gioiThieu" />
+            <item
+                android:id="@+id/nav_thoat"
+                android:icon="@drawable/thoat"
+                android:title="@string/menu_thoat" />
+        </menu>
+    </item>
+</menu>

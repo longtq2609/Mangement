@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.chi.KhoanChiFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+<TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Trong cuộc thi Nhân Tài Đất Việt, Quản Lý Chi Tiêu Cá Nhân đã vượt qua hàng loạt các sản phẩm khác để giành giải nhất. Cũng như MISA, Quản Lý Chi Tiêu Cá Nhân mang đến cho bạn khả năng quản lý chi tiêu cá nhân hiệu quả. Một trong những tính năng được yêu thích có thể kể đến tính năng thực hiện một kế hoạch tiết kiệm tiền, tương tự như một ống tiết kiệm điện tử trong smartphone luôn trong túi. Money Lover còn có một tính năng đáng chú ý nữa đó là “ví liên kết” tự động truy cập thông tin từ các tài khoản kết nối khác bao gồm hơn 10 ngân hàng trong nước và nhiều dịch vụ chi tiêu khác nhưCGV, Agoda, Zalora, Paypal… Như vậy, trong trường hợp người dùng tiến hành thanh toán tiện lợi bằng thẻ hay qua internet, các dịch vụ tiêu dùng này cũng sẽ tự động ghi lại các giao dịch." />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_below="@id/tv1"
+            android:layout_margin="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Software company: ShynRi"/>
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv2"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="Release date: 14/08/2020" />
+        <TextView
+            android:layout_below="@id/tv3"
+            android:layout_marginLeft="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Version: 2.1.005"/>
+
+
+
+
+</LinearLayout>

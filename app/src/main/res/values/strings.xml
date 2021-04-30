@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Quản Lý Thu Chi</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Tên: Trương Quang Long</string>
+    <string name="nav_header_subtitle">Quản Lý Thu Chi Cá Nhân</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_thongKe">Thống Kê</string>
+    <string name="menu_thu">Khoản Thu</string>
+    <string name="menu_chi">Khoản Chi</string>
+    <string name="menu_gioiThieu">Giới Thiệu</string>
+    <string name="menu_thoat">Thoát</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
